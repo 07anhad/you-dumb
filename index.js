@@ -23,5 +23,5 @@ noBtn.addEventListener('click', () => {
 });
 
 yesBtn.addEventListener('click', () => {
-    container.innerHTML = `<h2> LOL 😂 <br> I knew it!</h2>`
+    container.innerHTML = `<h2>I knew it.</h2>`
 })
