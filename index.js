@@ -3,6 +3,7 @@ const yesBtn = document.querySelector('.yesBtn');
 const noBtn = document.querySelector('.noBtn');
 
 noBtn.addEventListener('click', () => {
+
     noBtn.style.position = 'absolute';
 
     const randomLeft = Math.floor(Math.random() * container.clientWidth);
